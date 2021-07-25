@@ -72,3 +72,5 @@ The author thinks comments are necessary evils at best. Since if we have time to
 I think this is right for masters like the author. And again, we, or at least me, are not masters. Sometimes changing code risks. And sometimes we cannot change it for other reasons, like political issues. Most of the time, comments are not the best solution, but they work for a while, which is enough for now.
 
 And even worse, this "the best comment is no comment" thinking becomes a cult.
+
+editing...
