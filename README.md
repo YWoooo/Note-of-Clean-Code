@@ -1,5 +1,7 @@
 # Note-of-Clean-Code
 
+wip...
+
 # TLDR
 1. Clean code means readable code. If we have to choose, readability and maintainability are more important than efficacy, since we spend much more time reading old code than writing new code.
 2. No one can write clean code at once, but we can rewrite code to make it cleaner whenever we read. Even just a little bit would be helpful.
@@ -73,4 +75,4 @@ I think this is right for masters like the author. And again, we, or at least me
 
 And even worse, this "the best comment is no comment" thinking becomes a cult.
 
-editing...
+wip...
