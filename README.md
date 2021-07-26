@@ -71,8 +71,12 @@ The author thinks comments are necessary evils at best. Since if we have time to
 * Some information that is hard to convey in names, such as intentions, explanations, or TODOs.
 * For public usages, such as Javadocs or README.md.
 
-I think this is right for masters like the author. And again, we, or at least me, are not masters. Sometimes changing code risks. And sometimes we cannot change it for other reasons, like political issues. Most of the time, comments are not the best solution, but they work for a while, which is enough for now.
+I think this is right for masters like the author. And again, we, or at least me, are not masters. Masters only need time to clear the code, but for us, besides time, we also need ability. Sometimes changing code risks. And sometimes we cannot change it for other reasons, like political issues. Most of the time, comments are not the best solution, but they are the best things we can do for now, and they work for a while, which is enough, just for now.
 
-And even worse, this "the best comment is no comment" thinking becomes a cult.
+And even worse, this "the best comment is no comment" thinking becomes a cult. People use it as an excuse not to write any comments, even if their codes are not clean enough for others to understand. They will say that you are not smart enough to understand my "clean code." That would be a nightmare for other engineers.
+
+For those two reasons, I would say we should try to write no comment. We also need to know our ability and when our code isn't clean enough without comments.
+
+## Formatting
 
 wip...
