@@ -78,7 +78,12 @@ And even worse, this "the best comment is no comment" thinking becomes a cult. P
 For those two reasons, I would say we should try to write no comment. We also need to know our ability and when our code isn't clean enough without comments.
 
 ## Formatting
-...  
+A well-formatted code should make the reading speed faster, which means people could spend less time and get more code information from it. Therefore:
+Both the words and lines should be short. Under a size of a screen is the best.
+* Files should be small. It's like functions, small but many is better.
+* Important things first, like the newspaper. I think that may be one of the reasons why JavaScript has hoisting.
+* Tear down codes by brackets and spaces. Avoid omit brackets like the arrow function.
+* One team, one formatting rule. Use linter.  
 ...  
 ...  
 wip...  
