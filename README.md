@@ -79,11 +79,17 @@ For those two reasons, I would say we should try to write no comment. We also ne
 
 ## Formatting
 A well-formatted code should make the reading speed faster, which means people could spend less time and get more code information from it. Therefore:
-Both the words and lines should be short. Under a size of a screen is the best.
-* Files should be small. It's like functions, small but many is better.
+* Both the words and lines should be short. Under a size of a screen is the best.
+* Files should be small. Like functions, small but many is better.
 * Important things first, like the newspaper. I think that may be one of the reasons why JavaScript has hoisting.
 * Tear down codes by brackets and spaces. Avoid omit brackets like the arrow function.
 * One team, one formatting rule. Use linter.  
+
+Actually, in Chapter 17, the author says:
+
+>*This means that each team member must be mature enough to realize that it doesn’t matter a whit where you put your braces so long as you all agree on where to put them.*
+
+I love how he uses the word mature here. There are lots of jokes and memes about some little formatting things like spaces or braces. And yes, theoretically, the best practice about formatting does exist, but it does not bring much profit. However, the same formatting rule will make other team members spend way more time reading and writing. Save time means profits. So when in a team, I don't argue about coding styles.  
 ...  
 ...  
 wip...  
