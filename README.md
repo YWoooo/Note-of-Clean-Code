@@ -90,6 +90,25 @@ Actually, in Chapter 17, the author says:
 >*This means that each team member must be mature enough to realize that it doesn’t matter a whit where you put your braces so long as you all agree on where to put them.*
 
 I love how he uses the word mature here. There are lots of jokes and memes about some little formatting things like spaces or braces. And yes, theoretically, the best practice about formatting does exist, but it does not bring much profit. However, the same formatting rule will make other team members spend way more time reading and writing. Save time means profits. So when in a team, I don't argue about coding styles.  
+
+## Object and Data Structures
+It is a short chapter. And honestly, as a young front-end engineer, I work on the application layer most of the time. So I am going to throw the conclusion now:
+* Objects expose behavior and hide data, while data structures expose data and have no significant behavior.
+* Therefore, for an object, changing behavior is hard, but add new data is easy. For a data structure, things are otherwise.
+* Do not hybrid. Choose.  
+
+I might edit this part later.
+
+## Error Handling
+In the function section, we said functions should throw exceptions instead of return error codes. The reason is that the return of code forces the caller to handle the error immediately, which usually causes lots of if statements. That is how the code becomes ugly, hard to read.
+
+On the other hand, thanks to the try-catch statement, the caller can handle the error at the catch block if the function throws errors as exceptions. Therefore, the concerns are separated, the error handling logic can be abstract into a single function, and the code becomes cleaner.
+
+There are several other tips about throwing exceptions:
+* List out all possible exceptions is unnecessary. In general, a few universal handlers would be plenty.
+* For the same reason of not return error codes, try not to return or pass null, nor other falsy values.
+* Use error messages.  
+
 ...  
 ...  
 wip...  
