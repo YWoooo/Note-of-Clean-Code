@@ -89,7 +89,7 @@ Actually, in Chapter 17, the author says:
 
 >*This means that each team member must be mature enough to realize that it doesn’t matter a whit where you put your braces so long as you all agree on where to put them.*
 
-I love how he uses the word mature here. There are lots of jokes and memes about some little formatting things like spaces or braces. And yes, theoretically, the best practice about formatting does exist, but it does not bring much profit. However, the same formatting rule will make other team members spend way more time reading and writing. Save time means profits. So when in a team, I don't argue about coding styles.  
+I love how he uses the word mature here. There are lots of jokes and memes about some little formatting things like spaces or braces. And yes, theoretically, the best practice about formatting does exist, but it does not bring much profit. However, the same formatting rule will make other team members spend way more time reading and writing. Save time means profits. I love profits. So when in a team, I don't argue about coding styles.  
 
 ## Object and Data Structures
 It is a short chapter. And honestly, as a young front-end engineer, I work on the application layer most of the time. So I am going to throw the conclusion now:
