@@ -121,7 +121,7 @@ However, the author says we should try writing tests instead of only reading doc
 
 And none-exist-code can be tread like third-party codes. I mean, if we do not care about the implementation, what is the difference between existing or not? We just mock the output. That is the beauty of a clear boundary: theoretically, it makes our code work no matter how the other codes are changed. It adapts.  
 
-> You may see I am not listing and keep murmuring in this part. Since I think this chapter is quite, well, a masterpiece.
+> You may see I stop listing and keep murmuring in this part. Since I think this chapter is quite, well, a masterpiece.
 
 
 ...  
