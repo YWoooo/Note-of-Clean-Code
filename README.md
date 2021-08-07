@@ -111,6 +111,19 @@ There are several other tips about throwing exceptions:
 
 Honestly, this might be the part I agree with the most in this book. Reducing the amount of if-else statements improves the coding experience and readability significantly. And I think this tip is an example of the "*Functions should do one thing.*" rule.  
 
+## Boundaries
+
+Boundaries are codes we write to connect with other codes, like a third-party code or an unknown, none-exist-yet code. We should not trust other codes too much. Therefore, instead of using other codes directly, we should write codes to connect, to pack, to encapsulate them. These codes are boundaries.  
+
+And I think the key to boundaries is the interface. We do not care about the implementation of other codes. Instead, we just have to validate the output of these codes is what we need. And the way of validation is testing. That is what learning tests are about.  
+
+However, the author says we should try writing tests instead of only reading documents while learning the third-party code. From this saying, I can understand why someone would say TDD is a cult, yet as a nobody, I would not say TDD or learning tests are wrong. Anyway, a clear boundary to keep our code from other codes is needed.  
+
+And none-exist-code can be tread like third-party codes. I mean, if we do not care about the implementation, what is the difference between existing or not? We just mock the output. That is the beauty of a clear boundary: theoretically, it makes our code work no matter how the other codes are changed. It adapts.  
+
+> You may see I am not listing and keep murmuring in this part. Since I think this chapter is quite, well, a masterpiece.
+
+
 ...  
 ...  
 wip...  
