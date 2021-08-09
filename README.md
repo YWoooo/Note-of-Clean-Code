@@ -123,6 +123,19 @@ And none-exist-code can be tread like third-party codes. I mean, if we do not ca
 
 > You may see I stop listing and keep murmuring in this part. Since I think this chapter is quite, well, a masterpiece.
 
+## Unit Tests
+So here comes the famous TDD. TDD asks us to write unit tests before we write codes. According to this book, there are three laws of TDD:
+* You may not write production code until you have written a failing unit test.
+* You may not write more of a unit test than is sufficient to fail, and not compiling is failing.
+* You may not write more production code than is sufficient to pass the currently failing test.
+
+I quote these laws directly since I think no matter what we thought about TDD, we better understand it, at least, well, give them some respect.
+
+In my personal experiences, TDD is like talking manners with packs of apes inside a jungle. It is a good thing, a good thing in the wrong place and wrong beings. Perhaps many Americans or European companies are good enough to understand TDD, yet it is hard to do it if the requirements keep changing and changing. It is not impossible, but it cost a lot, since how do you write tests if you do not know what the output should be? And perhaps no one knows. Not the engineers, not the PMs, even not the bosses, not the investors. 
+
+I guess this is life, no one fucking knows what things should be, yet somehow it keeps going.
+
+Back to this book, I am not saying TDD is wrong. Who am I anyway? I will try to understand TDD and practice it in some other projects. But I think it would not harm if we write tests after the production codes.  
 
 ...  
 ...  
