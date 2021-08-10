@@ -143,6 +143,7 @@ And there are other tips about testing:
 * Tests should be easy to run. Use CLI, IDE, or other tools to run tests in one or even zero keys. Do not run them manually.
 * Tests should be fast, or we will be lazy to run them.
 * Check the coverage. Again, use tools.  
+* If codes are not easy to test, refactor codes. It is one of the purposes of writing tests.  
 
 We may not want to follow any of the above. But by all means, tests are necessary. Codes without tests are not clean.  
 
