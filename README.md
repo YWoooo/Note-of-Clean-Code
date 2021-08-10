@@ -137,6 +137,15 @@ I guess this is life, no one fucking knows what things should be, yet somehow it
 
 Back to this book, I am not saying TDD is wrong. Who am I anyway? I will try to understand TDD and practice it in some other projects. But I think it would not harm if we write tests after the production codes.  
 
+And there are other tips about testing:
+* Tests should be clean, yet clean as production codes are unnecessary.
+* By clean, which means tests also follow principles above, like nicely named, small, do one thing only, .etc.
+* Tests should be easy to run. Use CLI, IDE, or other tools to run tests in one or even zero keys. Do not run them manually.
+* Tests should be fast, or we will be lazy to run them.
+* Check the coverage. Again, use tools.  
+
+We may not want to follow any of the above. But by all means, tests are necessary. Codes without tests are not clean.  
+
 ...  
 ...  
 wip...  
