@@ -147,6 +147,13 @@ And there are other tips about testing:
 
 We may not want to follow any of the above. But by all means, tests are necessary. Codes without tests are not clean.  
 
+## Classes
+Classes and functions are both should be small. Small here mean two things:
+* A class should have only one reason to change, aka SRP.
+* Classes should be cohesive, which means they should have fewer variables and methods, but these variables and methods should use each other more. Small but compact.  
+
+Like the author said: "No, we’re not going to repeat the exact same text from the Functions chapter." So basically, principles and patterns about functions still work here.
+
 ...  
 ...  
 wip...  
