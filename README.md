@@ -55,7 +55,7 @@ Functions should do one thing. Only one thing. Which means:
 
 I think functions should read like a story. Let's say I want to buy a shirt, then the story would be like: I find a shirt in the store, pay money by card, and get my shirt. And if I want to write a checkout function of a shirt-buying-process, it would be like:
 
-```
+```js
 function checkoutShirt() {
   const shirt = findTheShirt()
   payByCard(shirt)
